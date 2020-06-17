@@ -12,8 +12,8 @@ use PoP\Hooks\Facades\HooksAPIFacade;
 //-------------------------------------------------------------------------------------
 // Constants Definition
 //-------------------------------------------------------------------------------------
-define('POP_POSTMETA_VERSION', 0.106);
-define('POP_POSTMETA_DIR', dirname(__FILE__));
+define('POP_CUSTOMPOSTMEDIA_VERSION', 0.106);
+define('POP_CUSTOMPOSTMEDIA_DIR', dirname(__FILE__));
 
 class Plugins
 {
@@ -27,7 +27,7 @@ class Plugins
     {
         if ($this->validate()) {
             $this->initialize();
-            define('POP_POSTMETA_INITIALIZED', true);
+            define('POP_CUSTOMPOSTMEDIA_INITIALIZED', true);
         }
     }
     public function validate()

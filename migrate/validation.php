@@ -3,7 +3,7 @@ namespace PoP\CustomPostMedia;
 use PoP\Translation\Facades\TranslationAPIFacade;
 use PoP\Hooks\Facades\HooksAPIFacade;
 
-define('POP_POSTMETA_POP_ENGINE_MIN_VERSION', 0.1);
+define('POP_CUSTOMPOSTMEDIA_POP_ENGINE_MIN_VERSION', 0.1);
 
 class Validation
 {
@@ -38,7 +38,7 @@ class Validation
             HooksAPIFacade::getInstance()->addAction('admin_notices', array($this, 'initializeWarning'));
             HooksAPIFacade::getInstance()->addAction('network_admin_notices', array($this, 'initializeWarning'));
             $success = false;
-        } elseif (POP_POSTMETA_POP_ENGINE_MIN_VERSION > POP_ENGINE_VERSION) {
+        } elseif (POP_CUSTOMPOSTMEDIA_POP_ENGINE_MIN_VERSION > POP_ENGINE_VERSION) {
             HooksAPIFacade::getInstance()->addAction('admin_notices', array($this, 'versionWarning'));
             HooksAPIFacade::getInstance()->addAction('network_admin_notices', array($this, 'versionWarning'));
         }
@@ -78,7 +78,7 @@ class Validation
             TranslationAPIFacade::getInstance()->__('PoP Post Media', 'pop-postmedia'),
             TranslationAPIFacade::getInstance()->__('PoP Engine', 'pop-postmedia'),
             'https://github.com/leoloso/PoP',
-            POP_POSTMETA_POP_ENGINE_MIN_VERSION
+            POP_CUSTOMPOSTMEDIA_POP_ENGINE_MIN_VERSION
         );
     }
     protected function providerinstall_warning_notice($plugin)

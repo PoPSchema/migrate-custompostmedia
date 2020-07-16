@@ -3,6 +3,6 @@ namespace PoP\Media;
 
 interface PostsFunctionAPI
 {
-    public function hasPostThumbnail($post_id);
-    public function getPostThumbnailId($post_id);
+    public function hasCustomPostThumbnail($post_id);
+    public function getCustomPostThumbnailID($post_id);
 }

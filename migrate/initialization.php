@@ -1,5 +1,5 @@
 <?php
-namespace PoP\CustomPostMedia;
+namespace PoPSchema\CustomPostMedia;
 
 class Initialization
 {

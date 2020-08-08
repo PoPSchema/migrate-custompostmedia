@@ -1,7 +1,7 @@
 {
-    "name": "getpop/migrate-custompostmedia",
+    "name": "pop-schema/migrate-custompostmedia",
     "type": "library",
-    "description": "(Temporary package) Migrate code to package https://github.com/getpop/custompostmedia. Target package description: Adds support for post media",
+    "description": "(Temporary package) Migrate code to package https://github.com/pop-schema/custompostmedia. Target package description: Adds support for post media",
     "keywords": [
         "PoP",
         "custompostmedia"

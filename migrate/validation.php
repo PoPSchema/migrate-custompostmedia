@@ -1,5 +1,5 @@
 <?php
-namespace PoP\CustomPostMedia;
+namespace PoPSchema\CustomPostMedia;
 use PoP\Translation\Facades\TranslationAPIFacade;
 use PoP\Hooks\Facades\HooksAPIFacade;
 

@@ -6,7 +6,7 @@ Description: The foundation for a PoP Post Media
 Plugin URI: https://getpop.org/
 Author: Leonardo Losoviz
 */
-namespace PoP\CustomPostMedia;
+namespace PoPSchema\CustomPostMedia;
 use PoP\Hooks\Facades\HooksAPIFacade;
 
 //-------------------------------------------------------------------------------------

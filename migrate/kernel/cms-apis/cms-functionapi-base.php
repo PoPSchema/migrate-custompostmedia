@@ -1,5 +1,5 @@
 <?php
-namespace PoP\Media;
+namespace PoPSchema\Media;
 
 abstract class PostsFunctionAPI_Base implements PostsFunctionAPI
 {
